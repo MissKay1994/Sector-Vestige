@@ -460,8 +460,8 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
-  - type: SupermatterImmune
-  - type: ClothingGrantComponent
+  - type: SupermatterImmune # SV - Makes the item SuperMatterImmune
+  - type: ClothingGrantComponent # SV - Makes the wearer SuperMatterImmune
     component:
     - type: SupermatterImmune
 
