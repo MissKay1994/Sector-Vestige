@@ -1356,7 +1356,8 @@
   loadouts:
   - SecurityBelt
   - SecurityWebbing
-  - SecurityPlateCarrier #CD
+  - SecurityWebbingAlt
+
 
 - type: loadoutGroup
   id: SecurityOuterClothing

@@ -30,11 +30,6 @@
   groupBy: "casual" #Tag added by SV
 
 - type: loadout
-  id: SecurityPlateCarrier
-  equipment:
-    belt: ClothingBeltSecurityPlateCarrierFilled
-
-- type: loadout
   id: SecurityGreatcoat
   equipment:
     outerClothing: ClothingOuterCoatSecGreatcoat
