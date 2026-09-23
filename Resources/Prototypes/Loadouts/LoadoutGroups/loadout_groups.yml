@@ -1357,8 +1357,7 @@
   loadouts:
   - SecurityBelt
   - SecurityWebbing
-  - SecurityWebbingAlt
-
+  - SecurityWebbingAlt # Moffstation
 
 - type: loadoutGroup
   id: SecurityOuterClothing
