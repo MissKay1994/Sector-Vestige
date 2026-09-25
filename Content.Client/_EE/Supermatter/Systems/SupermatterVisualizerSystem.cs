@@ -7,7 +7,7 @@
 // SPDX-FileCopyrightText: 2025 mqole <anactualpanacea@gmail.com>
 // SPDX-FileCopyrightText: 2026 ReboundQ3 <22770594+ReboundQ3@users.noreply.github.com>
 //
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 using Content.Client._EE.Supermatter.Components;
 using Content.Shared._EE.Supermatter.Components;
