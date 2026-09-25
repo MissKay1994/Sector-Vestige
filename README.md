@@ -56,7 +56,7 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. It covers
 
 - Original Sector Vestige code (in `_SV/` folders) is licensed under AGPL-3.0-or-later.
 - Upstream Space Station 14 code stays under the MIT License. Our edits to upstream files are marked with `SV:` comments and stay MIT, so they can be sent back upstream. See [CONTRIBUTING.md](CONTRIBUTING.md).
-- `REUSE.toml` records which folder has which license. Some files also carry SPDX headers from earlier tooling or from the fork they came from; both are valid.
+- `REUSE.toml` records which folder has which license. We do not use per-file SPDX headers.
 
 ### Ported code
 

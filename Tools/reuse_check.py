@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-# SPDX-FileCopyrightText: 2026 Sector Vestige contributors
-# SPDX-License-Identifier: MIT
 """Check that REUSE resolves the license we intend for every namespaced folder.
 
 `reuse lint` only proves that every file has *some* license and copyright.

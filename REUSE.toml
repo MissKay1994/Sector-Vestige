@@ -129,6 +129,18 @@ precedence = "aggregate"
 SPDX-FileCopyrightText = ["2026 EinsteinEngines contributors", "2026 Sector Vestige contributors (modifications)"]
 SPDX-License-Identifier = "AGPL-3.0-or-later"
 
+# These three came through Funkystation, which declares them as AGPL AND MIT
+# (MIT original with AGPL modifications). Must stay after the _EE table.
+[[annotations]]
+path = [
+  "Content.Client/_EE/Supermatter/Components/SupermatterVisualizerComponent.cs",
+  "Content.Client/_EE/Supermatter/Consoles/SupermatterConsoleBoundUserInterface.cs",
+  "Content.Client/_EE/Supermatter/Systems/SupermatterVisualizerSystem.cs",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2026 EinsteinEngines contributors", "2026 Funkystation contributors", "2026 Sector Vestige contributors (modifications)"]
+SPDX-License-Identifier = "AGPL-3.0-or-later AND MIT"
+
 [[annotations]]
 path = "**/_Funkystation/**"
 precedence = "aggregate"

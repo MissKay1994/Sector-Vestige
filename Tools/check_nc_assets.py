@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-# SPDX-FileCopyrightText: 2026 Sector Vestige contributors
-# SPDX-License-Identifier: MIT
 """List assets whose meta.json or attributions.yml declares a non-commercial license.
 
 REUSE.toml declares Resources/Textures as CC-BY-SA-3.0 as a whole, so the

@@ -111,7 +111,7 @@ When porting content (code, YAML, assets) from other SS14 forks (e.g., Delta-V, 
 - Check the fork's own repository for its license before porting. Some forks switched from MIT to AGPL at a specific commit, so older code from them is MIT and newer code is AGPL.
 - MIT code: freely portable.
 - AGPL code: allowed. Keep it in its `_ForkName/` folder. AGPL requires source disclosure for servers running the code, which we already do.
-- If the files carry SPDX headers in the source fork, keep them as they are. Do not add headers yourself; `REUSE.toml` covers the folder.
+- We do not use per-file SPDX headers. `REUSE.toml` covers the folder. If ported files come with headers, strip them; if a file's license differs from the rest of its folder, record that file in `REUSE.toml` instead.
 - Porting a fork we do not have yet: add a `**/_ForkName/**` table at the end of `REUSE.toml` and a row to the license table in README.md. CI fails if a `_ForkName/` folder has no table.
 - Assets: the real license of a sprite or sound is in its `meta.json` or `attributions.yml`. Non-commercial (CC-BY-NC) assets are tracked in `Tools/nc_assets_baseline.txt`; CI fails on a new one unless you add it there on purpose.
 
